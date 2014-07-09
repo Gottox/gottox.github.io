@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Gottox]]></title>
+  <link href="http://gottox.de/atom.xml" rel="self"/>
+  <link href="http://gottox.de"/>
+  <updated>2014-07-09T09:52:08.932Z</updated>
+  <id>http://gottox.de/</id>
+  <author>
+    <name><![CDATA[Enno Boland]]></name>
+  </author>
+  <generator uri="http://zespia.tw/hexo">Hexo</generator>
+  <entry>
+    <title type="html"><![CDATA[node-pdfutils on the way]]></title>
+    <link href="http://gottox.de/2014/07/09/node-pdfutils-on-the-way/"/>
+    <id>http://gottox.de/2014/07/09/node-pdfutils-on-the-way/</id>
+    <published>2014-07-09T09:24:44.000Z</published>
+    <updated>2014-07-09T09:50:34.000Z</updated>
+    <content type="html"><![CDATA[<p>Version 0.4 of node-pdfutils is a complete rewrite of pdfutils.</p>
+<p>The old design didn<code>t work out, I naively decided that it would be a
+good idea to do as much as possible in C++ and keep the JS side minimal
+in order to reduce context switches between JS and C++. Turns out this was
+a bad idea. First of all, node will switch to a new v8-API with 0.12. This
+means I have to rewrite big parts of the code once 0.12 is out. Furthermore
+it turns out (surprise!) that the C++-part became messy and was harder to
+maintain. With the new architecture, I keep the C++ smaller and better
+structured. Also I kept in mind that the v8-API will change and it</code>ll be easy<br>to switch to the new one.</p>
+<p>One of the most requested features is reordering/insert/extract<br>pages from/to a document. With this rewrite, we finally got a base<br>to do this. It<code>s not implemented yet, but it</code>s much easier to do now.</p>
+<p>Also I`m proud to announce, that pdfutils will support multiple PDF-engines.</p>
+<p>The 0.4 series will switch license: node-pdfutils was licensed under GPL before,<br>which makes it hard to include it with 3rd party products. 0.4 will be dual<br>licensed under MIT/GPL. The idea is, that you can choose to use MIT with any<br>GPL-free PDF-engine. If you want to use i.e. poppler, you have to use GPL, as<br>poppler is GPL itself (If I`m talking nonsense, please correct me.)</p>
+]]></content>
+  </entry>
+</feed>
