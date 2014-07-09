@@ -11,7 +11,6 @@ pubdir=build
 cd "`which $0 | xargs dirname`" || exit $?
 rev=`git rev-parse HEAD`
 
-grunt clean || exit $?
 git clone -b "$destbranch" . "$pubdir" || exit $?
 
 ####################################
@@ -28,4 +27,4 @@ git -C "$pubdir" push $PWD "$destbranch" || exit $?
 ####################################
 ## Cleanup
 
-grunt clean || exit $?
+rm -r build || exit $?
