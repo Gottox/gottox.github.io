@@ -25,3 +25,7 @@ which makes it hard to include it with 3rd party products. 0.4 will be dual
 licensed under MIT/GPL. The idea is, that you can choose to use MIT with any
 GPL-free PDF-engine. If you want to use i.e. poppler, you have to use GPL, as
 poppler is GPL itself (If I'm talking nonsense, please correct me.)
+
+Github: <https://github.com/Gottox/node-pdfutils/tree/rewrite-0.4>
+
+Docs: <http://gottox.de/node-pdfutils>
