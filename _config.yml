@@ -15,8 +15,6 @@ language:
 # Header
 menu:
     Home: /
-    pdfutils: /node-pdfutils
-    terminal.js: /terminal.js
 rss: /atom.xml
 
 # Content
@@ -102,6 +100,7 @@ theme: apollo
 exclude_generator:
 plugins:
     - hexo-feed-generator
+    - hexo-generator-cname
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html

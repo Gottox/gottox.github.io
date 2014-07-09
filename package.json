@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "hexo-feed-generator": "git://github.com/ChrisYip/hexo-feed-generator.git",
+    "hexo-generator-cname": "^0.1.1",
     "hexo-renderer-ejs": "*",
     "hexo-renderer-marked": "*",
     "hexo-renderer-stylus": "*"
