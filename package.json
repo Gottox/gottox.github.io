@@ -1,0 +1,11 @@
+{
+  "name": "hexo-site",
+  "version": "2.7.1",
+  "private": true,
+  "dependencies": {
+    "hexo-feed-generator": "git://github.com/ChrisYip/hexo-feed-generator.git",
+    "hexo-renderer-ejs": "*",
+    "hexo-renderer-marked": "*",
+    "hexo-renderer-stylus": "*"
+  }
+}
