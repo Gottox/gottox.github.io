@@ -3,7 +3,7 @@
   <title><![CDATA[Gottox]]></title>
   <link href="http://gottox.de/atom.xml" rel="self"/>
   <link href="http://gottox.de"/>
-  <updated>2014-07-10T10:16:39.363Z</updated>
+  <updated>2014-07-10T10:18:14.504Z</updated>
   <id>http://gottox.de/</id>
   <author>
     <name><![CDATA[Enno Boland]]></name>
@@ -14,11 +14,12 @@
     <link href="http://gottox.de/2014/07/10/vnc2gif/"/>
     <id>http://gottox.de/2014/07/10/vnc2gif/</id>
     <published>2014-07-10T09:45:56.000Z</published>
-    <updated>2014-07-10T10:16:07.000Z</updated>
+    <updated>2014-07-10T10:17:52.000Z</updated>
     <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/Gottox/vnc2gif/master/recording.gif" alt="vnc2gif"></p>
-<p>vnc2gif is a small tool which renders a VNC connection into an animated gif. It is based on an idea from <a href="https://github.com/sidorares/vnc-over-gif" target="_blank" rel="external">vnc-over-gif</a> which is a little more decent. Unfortunately it does not work on node-0.10, so I decided to rewrite it using <a href="https://www.npmjs.org/package/canvas" target="_blank" rel="external">node-canvas</a>.</p>
+<p><a href="https://github.com/Gottox/vnc2gif" target="_blank" rel="external">vnc2gif</a> is a small tool which renders a VNC connection into an animated gif. It is based on an idea from <a href="https://github.com/sidorares/vnc-over-gif" target="_blank" rel="external">vnc-over-gif</a> which is a little more decent. Unfortunately it does not work on node-0.10, so I decided to rewrite it using <a href="https://www.npmjs.org/package/canvas" target="_blank" rel="external">node-canvas</a>.</p>
 <p>node-canvas itself does not support animated gifs, so I had to use <a href="https://www.npmjs.org/package/gifencoder" target="_blank" rel="external">gifencoder</a>.</p>
 <p>Unfortunately gifencoder is quite slow. I would prefere to implement animated gif support in node-canvas directly. The libraries which are used in node-canvas support animation (<a href="http://giflib.sourceforge.net/" target="_blank" rel="external">GIFLIB</a>) and the node-canvas API supports multiple Frames with the PDF-output. So an implementation of animated gifs in node-canvas is feasible.</p>
+<p>Find the source at the <a href="https://github.com/Gottox/vnc2gif" target="_blank" rel="external">Github Repository</a></p>
 ]]></content>
     <category scheme="http://gottox.de/tags/node/" term="node"/>
     <category scheme="http://gottox.de/tags/gif/" term="gif"/>
