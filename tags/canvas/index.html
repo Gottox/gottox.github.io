@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Gottox</title>
+  <title>Tag: canvas | Gottox</title>
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="Announcement Blog">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Gottox">
-<meta property="og:url" content="http://gottox.de/">
+<meta property="og:url" content="http://gottox.de/tags/canvas/">
 <meta property="og:site_name" content="Gottox">
 <meta property="og:description" content="Announcement Blog">
 <meta name="twitter:card" content="summary">
@@ -87,59 +87,6 @@
 				
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/canvas/">canvas</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/gif/">gif</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/node/">node</a></li></ul>
 
-			</span>
-		</div>
-	</footer>
-	
-</article>
-
-
-	<hr class="article-devider">
-
-
-
-  
-    <article id="post-node-pdfutils-on-the-way" class="post">
-	<footer class="entry-meta-header">
-		<span class="meta-elements date">
-			<a href="/2014/07/09/node-pdfutils-on-the-way/" class="article-date">
-  <time datetime="2014-07-09T09:24:44.000Z" itemprop="datePublished">2014-07-09</time>
-</a>
-		</span>
-		<span class="meta-elements author">Enno Boland</span>
-		<div class="commentscount">
-			
-		</div>
-	</footer>
-	
-	<header class="entry-header">
-		
-  
-    <h1 itemprop="name" class="entry-title">
-      <a class="article-title" href="/2014/07/09/node-pdfutils-on-the-way/">node-pdfutils on the way</a>
-    </h1>
-  
-
-	</header>
-	<div class="entry-content">
-		
-    	<p>Version 0.4 of node-pdfutils is a complete rewrite of pdfutils.</p>
-<p>The old design didn’t work out, I naively decided that it would be a<br>good idea to do as much as possible in C++ and keep the JS side minimal<br>in order to reduce context switches between JS and C++. Turns out this was<br>a bad idea. First of all, node will switch to a new v8-API with 0.12. This<br>means I have to rewrite big parts of the code once 0.12 is out. Furthermore<br>it turns out (surprise!) that the C++-part became messy and was harder to<br>maintain. With the new architecture, I keep the C++ smaller and better<br>structured. Also I kept in mind that the v8-API will change and it’ll be easy<br>to switch to the new one.</p>
-<p>One of the most requested features is reordering/insert/extract<br>pages from/to a document. With this rewrite, we finally got a base<br>to do this. It’s not implemented yet, but it’s much easier to do now.</p>
-<p>Also I’m proud to announce, that pdfutils will support multiple PDF-engines.</p>
-<p>The 0.4 series will switch license: node-pdfutils was licensed under GPL before,<br>which makes it hard to include it with 3rd party products. 0.4 will be dual<br>licensed under MIT/GPL. The idea is, that you can choose to use MIT with any<br>GPL-free PDF-engine. If you want to use i.e. poppler, you have to use GPL, as<br>poppler is GPL itself (If I’m talking nonsense, please correct me.)</p>
-<p>Github: <a href="https://github.com/Gottox/node-pdfutils/tree/rewrite-0.4" target="_blank" rel="external">https://github.com/Gottox/node-pdfutils/tree/rewrite-0.4</a></p>
-<p>Docs: <a href="http://gottox.de/node-pdfutils" target="_blank" rel="external">http://gottox.de/node-pdfutils</a></p>
-
-    
-	</div>
-	<footer class="entry-footer">
-		<div class="entry-meta-footer">
-			<span class="category">
-				
-			</span>
-			<span class="tags">
-				
 			</span>
 		</div>
 	</footer>
