@@ -3,10 +3,11 @@
   <title><![CDATA[Gottox]]></title>
   <link href="http://gottox.de/atom.xml" rel="self"/>
   <link href="http://gottox.de"/>
-  <updated>2014-07-29T07:39:40.797Z</updated>
+  <updated>2014-07-29T07:49:41.262Z</updated>
   <id>http://gottox.de/</id>
   <author>
     <name><![CDATA[Enno Boland]]></name>
+    <email><![CDATA[eb@s01.de]]></email>
   </author>
   <generator uri="http://zespia.tw/hexo">Hexo</generator>
   <entry>
