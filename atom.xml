@@ -3,13 +3,36 @@
   <title><![CDATA[Gottox]]></title>
   <link href="http://gottox.de/atom.xml" rel="self"/>
   <link href="http://gottox.de"/>
-  <updated>2014-07-29T07:51:33.408Z</updated>
+  <updated>2014-08-01T22:56:36.029Z</updated>
   <id>http://gottox.de/</id>
   <author>
     <name><![CDATA[Enno Boland]]></name>
     <email><![CDATA[eb@s01.de]]></email>
   </author>
   <generator uri="http://zespia.tw/hexo">Hexo</generator>
+  <entry>
+    <title type="html"><![CDATA[Blackarmor 400 and a custom kernel]]></title>
+    <link href="http://gottox.de/2014/08/02/Blackarmor-440-and-a-custom-kernel/"/>
+    <id>http://gottox.de/2014/08/02/Blackarmor-440-and-a-custom-kernel/</id>
+    <published>2014-08-01T22:49:20.000Z</published>
+    <updated>2014-08-01T22:55:41.000Z</updated>
+    <content type="html"><![CDATA[<p>The Blackarmor 400 is a 4 Slot NAS. I plan to get openwrt boot on it. I got<br>serial access to the bootloader using <a href="http://www.amazon.de/gp/product/B000V3OEEO/ref=oh_aui_detailpage_o06_s00?ie=UTF8&amp;psc=1" target="_blank" rel="external">a serial adapter</a><br>and plan to load the kernel via tftp.</p>
+<p>This is a rough info page of the current state:</p>
+<ul>
+<li>arcNumber (used by the linux kernel to identify the board)<ul>
+<li><a href="http://www.arm.linux.org.uk/developer/machines/list.php?id=2678" target="_blank" rel="external">2678</a></li>
+</ul>
+</li>
+</ul>
+<p>further readings:</p>
+<ul>
+<li><a href="http://www.noerenberg.de/hajo/pub/seagate-blackarmor-nas.txt" target="_blank" rel="external">Misc notes on the Seagate Blackarmor NAS, V1.15 </a></li>
+<li><a href="https://forum.openwrt.org/viewtopic.php?id=36138" target="_blank" rel="external">Thread in the OpenWRT Forum</a></li>
+</ul>
+]]></content>
+    <category scheme="http://gottox.de/tags/hardware/" term="hardware"/>
+    <category scheme="http://gottox.de/tags/blackarmor/" term="blackarmor"/>
+  </entry>
   <entry>
     <title type="html"><![CDATA[vnc2gif]]></title>
     <link href="http://gottox.de/2014/07/10/vnc2gif/"/>
