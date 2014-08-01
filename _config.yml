@@ -7,7 +7,7 @@ title: Gottox
 subtitle:
 description: Announcement Blog
 author: Enno Boland
-email:
+email: eb@s01.de
 language:
 
 
@@ -96,7 +96,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: light
+theme: apollo
 exclude_generator:
 plugins:
     - hexo-feed-generator
