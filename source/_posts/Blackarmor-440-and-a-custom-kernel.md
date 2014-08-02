@@ -16,3 +16,4 @@ This is a rough info page of the current state:
 further readings:
 * [Misc notes on the Seagate Blackarmor NAS, V1.15 ](http://www.noerenberg.de/hajo/pub/seagate-blackarmor-nas.txt)
 * [Thread in the OpenWRT Forum](https://forum.openwrt.org/viewtopic.php?id=36138)
+* [Kirkwood Specs](https://origin-www.marvell.com/embedded-processors/kirkwood/assets/FS_88F6180_9x_6281_OpenSource.pdf)
