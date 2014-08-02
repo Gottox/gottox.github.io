@@ -3,7 +3,7 @@
   <title><![CDATA[Gottox]]></title>
   <link href="http://gottox.de/atom.xml" rel="self"/>
   <link href="http://gottox.de"/>
-  <updated>2014-08-01T22:56:36.029Z</updated>
+  <updated>2014-08-02T07:17:02.537Z</updated>
   <id>http://gottox.de/</id>
   <author>
     <name><![CDATA[Enno Boland]]></name>
@@ -15,7 +15,7 @@
     <link href="http://gottox.de/2014/08/02/Blackarmor-440-and-a-custom-kernel/"/>
     <id>http://gottox.de/2014/08/02/Blackarmor-440-and-a-custom-kernel/</id>
     <published>2014-08-01T22:49:20.000Z</published>
-    <updated>2014-08-01T22:55:41.000Z</updated>
+    <updated>2014-08-02T07:15:28.000Z</updated>
     <content type="html"><![CDATA[<p>The Blackarmor 400 is a 4 Slot NAS. I plan to get openwrt boot on it. I got<br>serial access to the bootloader using <a href="http://www.amazon.de/gp/product/B000V3OEEO/ref=oh_aui_detailpage_o06_s00?ie=UTF8&amp;psc=1" target="_blank" rel="external">a serial adapter</a><br>and plan to load the kernel via tftp.</p>
 <p>This is a rough info page of the current state:</p>
 <ul>
@@ -28,6 +28,7 @@
 <ul>
 <li><a href="http://www.noerenberg.de/hajo/pub/seagate-blackarmor-nas.txt" target="_blank" rel="external">Misc notes on the Seagate Blackarmor NAS, V1.15 </a></li>
 <li><a href="https://forum.openwrt.org/viewtopic.php?id=36138" target="_blank" rel="external">Thread in the OpenWRT Forum</a></li>
+<li><a href="https://origin-www.marvell.com/embedded-processors/kirkwood/assets/FS_88F6180_9x_6281_OpenSource.pdf" target="_blank" rel="external">Kirkwood Specs</a></li>
 </ul>
 ]]></content>
     <category scheme="http://gottox.de/tags/hardware/" term="hardware"/>
